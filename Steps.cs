@@ -8,15 +8,15 @@ namespace POE1
 {
     internal class Steps
     {
-        string stepDesc;
+        string stepDesc; // the description of each step will be stored here
 
-        public Steps( string stepDesc)
+        public Steps( string stepDesc) 
         {
            
             this.stepDesc = stepDesc;
         }
 
-        public string getStepDesc() 
+        public string getStepDesc() // get method for the description of the step
         {  
             return stepDesc; }
 

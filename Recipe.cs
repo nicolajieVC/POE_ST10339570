@@ -9,14 +9,14 @@ namespace POE1
     class Recipe
     {
 
-        string nameRecipe;
-        int numIngredients;
-        int numSteps;
+        string nameRecipe; // name of the recipe
+        int numIngredients; // number of ingredients
+        int numSteps; // number of steps
 
-        Ingredients[] ingredients;
+        Ingredients[] ingredients; //creating arrays
         Steps[] steps;
 
-        public string viewRecipe()
+        public string viewRecipe() //method to display the ingredients and steps
         {
             string ingredientsOut = "\n\nName of the recipe: " + nameRecipe + "\n\nIngredients:\n";
             for (int i = 0; i < numIngredients; i++)
@@ -34,7 +34,7 @@ namespace POE1
 
         }
 
-        public void setRecipe()
+        public void setRecipe() // method in populating the ingredient and steps arrays
         {
 
             Console.WriteLine("Please enter the name of the Recipe you would like to create:");
@@ -86,7 +86,7 @@ namespace POE1
 
         }
 
-        public void clearData()
+        public void clearData() // method to clear all data
         {
             Console.WriteLine("Would you like to clear the data/recipe? (y = yes n = no)");
             char[] temp = Console.ReadLine().ToCharArray();
@@ -105,7 +105,7 @@ namespace POE1
 
         }
 
-        public void setOriginal()
+        public void setOriginal() // method to set the data back to the original data inputted
         {
             Console.WriteLine("Would you like to reset the quantities? (y = yes n = no)");
             char[] temp = Console.ReadLine().ToCharArray();
@@ -122,7 +122,7 @@ namespace POE1
             
         }
 
-        public void scaleIngredients()
+        public void scaleIngredients() // method to scale quantities
         {
             Console.WriteLine("Would you like to scale the quantities? (y = yes n = no)");
             char[] temp = Console.ReadLine().ToCharArray();

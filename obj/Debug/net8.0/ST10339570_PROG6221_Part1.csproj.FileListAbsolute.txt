@@ -12,3 +12,4 @@ C:\Users\nicol\OneDrive - ADvTECH Ltd\PROGRAMMING\ST10339570_PROG6221_Part1\obj\
 C:\Users\nicol\OneDrive - ADvTECH Ltd\PROGRAMMING\ST10339570_PROG6221_Part1\obj\Debug\net8.0\ST10339570_PROG6221_Part1.pdb
 C:\Users\nicol\OneDrive - ADvTECH Ltd\PROGRAMMING\ST10339570_PROG6221_Part1\obj\Debug\net8.0\ST10339570_PROG6221_Part1.genruntimeconfig.cache
 C:\Users\nicol\OneDrive - ADvTECH Ltd\PROGRAMMING\ST10339570_PROG6221_Part1\obj\Debug\net8.0\ref\ST10339570_PROG6221_Part1.dll
+C:\Users\nicol\OneDrive - ADvTECH Ltd\PROGRAMMING\ST10339570_PROG6221_Part1\obj\Debug\net8.0\ST10339570_PROG6221_Part1.sourcelink.json

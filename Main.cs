@@ -11,19 +11,19 @@ namespace POE1
         public static void Main(string[] args)
         {
 
-            Recipe recipe = new Recipe();
+            Recipe recipe = new Recipe(); 
             
-            recipe.setRecipe();
-            Console.WriteLine(recipe.viewRecipe());
+            recipe.setRecipe(); //setting the recipe
+            Console.WriteLine(recipe.viewRecipe()); // displaying the recipe 
 
-            recipe.scaleIngredients();
-            Console.WriteLine(recipe.viewRecipe());
+            recipe.scaleIngredients(); // scaling the recipe
+            Console.WriteLine(recipe.viewRecipe()); // displaying the recipe 
 
-            recipe.setOriginal();
-            Console.WriteLine(recipe.viewRecipe());
+            recipe.setOriginal(); // setting the recipe to the original
+            Console.WriteLine(recipe.viewRecipe()); // displaying the recipe 
 
-            recipe.clearData();
-            Console.WriteLine(recipe.viewRecipe());
+            recipe.clearData();// clearing the recipe
+            Console.WriteLine(recipe.viewRecipe()); // displaying the recipe 
 
         }           
 
